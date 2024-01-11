@@ -10,7 +10,7 @@
 
 <body>
     <main>
-        <form action="" method="get">
+        <form action="./includes/formhandler.php" method="post">
             <label for="first-name">First Name</label>
             <input type="text" id="first-name" name="firstname" placeholder="Firstname goes here" />
             <label for="last-name">Last Name</label>
