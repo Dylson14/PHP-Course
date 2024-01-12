@@ -28,12 +28,12 @@
         "vacuum" => "Basse",
         "dishes" => "Bella"
     ]; */
-    $food = [
+   /*  $food = [
         array("apple", "mango"), 
         "banana",
         "cherry"
     ];
-    echo $food[0][1];
+    echo $food[0][1]; */
 /* 
     $test = [
         "Mango"
@@ -50,6 +50,13 @@
    /*  array_splice($fruits, 2, 0, "mango");
     print_r($fruits) */
 
+    $food = [
+        "fruits" => array("apple", "banana", "cherry"), 
+        "meat" => array("chicken", "fish"), 
+        "vegetables" => array("cucumber", "carrot"), 
+    ];
+
+    echo $food["vegetables"][0];
 
     ?>
 
