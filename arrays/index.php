@@ -50,13 +50,28 @@
    /*  array_splice($fruits, 2, 0, "mango");
     print_r($fruits) */
 
-    $food = [
+   /*  $food = [
         "fruits" => array("apple", "banana", "cherry"), 
         "meat" => array("chicken", "fish"), 
         "vegetables" => array("cucumber", "carrot"), 
     ];
 
     echo $food["vegetables"][0];
+ */
+
+    $string = "Hello World!";
+
+    // echo strlen($string); //counts the length of the string
+    // echo strpos($string, "o"); //allows you to locate the position of a string
+    // echo strpos($string, "Wo"); //allows you to locate the position of a string
+    // echo str_replace("World", "Daniel", $string); //allows you to replace a section of a string with something else
+  /*   echo strtoupper($string); //makes the string all caps
+    echo strtolower($string); //makes the string lowercase */
+    // echo substr($string, 2, 2); //allows you to select specific parts of a string
+    // echo substr($string, 2, -2); //allows you to select specific parts of a string
+    
+    print_r(explode(" ", $string));
+
 
     ?>
 
