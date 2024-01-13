@@ -72,7 +72,7 @@
     
     // print_r(explode(" ", $string));
 
-    $number = -5.5;
+    // $number = -5.5;
 
     // echo abs($number);//gets the actual value of the item without caring for it's sign pos or neg
     // echo round($number);
@@ -80,8 +80,30 @@
     // echo sqrt(16); //gives us the square root
     // echo rand(1, 100); // generates a random number between a range
 
+    $array = ["apple","banana","orange"];
     
+    // echo count($array);//counts the items inside of the array
+    // echo is_array($array);// checks to see if what was passed in the function is an array or now, 1 being true, and 0 being false.
+    
+    // echo array_push($array, "kiwi");
+    /* array_push($array, "kiwi");
+    print_r($array); */
+    
+    
+    /* array_pop($array);
+    print_r($array); */
+    // print_r(array_reverse($array));
 
+    /* $array1 = ["apple","banana","orange"];
+    $array2 = ["kiwi"];
+
+    print_r(array_merge($array1, $array2)); */
+
+    // echo date("Y-m-d H:i:s");
+    $date = "2023-04-11 12:00:00";
+    // echo time();
+    echo strtotime($date);
+    
     ?>
 
 
