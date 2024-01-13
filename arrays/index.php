@@ -59,7 +59,7 @@
     echo $food["vegetables"][0];
  */
 
-    $string = "Hello World!";
+    // $string = "Hello World!";
 
     // echo strlen($string); //counts the length of the string
     // echo strpos($string, "o"); //allows you to locate the position of a string
@@ -70,8 +70,17 @@
     // echo substr($string, 2, 2); //allows you to select specific parts of a string
     // echo substr($string, 2, -2); //allows you to select specific parts of a string
     
-    print_r(explode(" ", $string));
+    // print_r(explode(" ", $string));
 
+    $number = -5.5;
+
+    // echo abs($number);//gets the actual value of the item without caring for it's sign pos or neg
+    // echo round($number);
+    // echo pow(2, 3); //exponentials
+    // echo sqrt(16); //gives us the square root
+    // echo rand(1, 100); // generates a random number between a range
+
+    
 
     ?>
 
